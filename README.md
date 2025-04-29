@@ -37,9 +37,8 @@ int main() {
 
 
 ## OUTPUT 
-Enter length of the rectangle: 5.5         
-Enter width of the rectangle: 3.2       
-The area of the rectangle is: 17.60		       	
+![image](https://github.com/user-attachments/assets/a939a44e-9c8d-4d6c-8b2a-787b66751f45)
+		       	
 
 
 ## RESULT
@@ -64,29 +63,31 @@ To write a C Program to print 'WELCOME' using malloc() and free().
 ```
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main() {
     char *str;
 
-    str = (char *)malloc(8 * sizeof(char));
+    str = (char *)malloc(8 * sizeof(char));  
 
     if (str == NULL) {
         printf("Memory allocation failed!\n");
         return 1;
     }
 
-    str = "WELCOME";
+    strcpy(str, "WELCOME");  
 
     printf("%s\n", str);
 
-    free(str);
+    free(str);  
 
     return 0;
 }
+
 ```
 
 ## OUTPUT
-WELCOME
+![image](https://github.com/user-attachments/assets/537a9f16-40c7-45bd-845c-db2a394a2d52)
 
 
 ## RESULT
@@ -143,14 +144,8 @@ int main() {
 
 
 ## OUTPUT
-Enter Roll Number: 101                
-Enter Name: John Doe      
-Enter Marks: 85.5     
+![image](https://github.com/user-attachments/assets/76f92ccc-d3d3-4bb3-94ac-e1476bb133f9)
 
-Student Information:          
-Roll Number: 101           
-Name: John Doe        
-Marks: 85.50
 
 ## RESULT
 
@@ -219,40 +214,8 @@ retun 0;
 ```
 
  ## OUTPUT
-Enter details for Employee 1:                  
-Enter Name: John Doe                 
-Enter Basic Salary: 50000         
-Enter Allowances: 10000           
+![image](https://github.com/user-attachments/assets/2ce20622-03fe-4561-8556-dbada13ea549)
 
-Enter details for Employee 2:     
-Enter Name: Alice Smith            
-Enter Basic Salary: 60000         
-Enter Allowances: 12000      
-
-Enter details for Employee 3: 
-Enter Name: Bob Brown            
-Enter Basic Salary: 55000           
-Enter Allowances: 11000                  
-
-Employee Details and Gross Salaries:       
-Employee 1:                             
-Name: John Doe                                                                         
-Basic Salary: 50000.00                
-Allowances: 10000.00        
-Gross Salary: 60000.00         
-
-Employee 2:                            
-Name: Alice Smith                                     
-Basic Salary: 60000.00                    
-Allowances: 12000.00            
-Gross Salary: 72000.00                       
-
-Employee 3:                           
-Name: Bob Brown                  
-Basic Salary: 55000.00        
-Allowances: 11000.00         
-Gross Salary: 66000.00
- 
 
 ## RESULT
 
@@ -333,18 +296,8 @@ int main() {
 ```
 
 ## OUTPUT
-Enter student name: John Doe
-Enter marks for 5 subjects:     
-Subject 1: 85                 
-Subject 2: 78                    
-Subject 3: 90                        
-Subject 4: 88                  
-Subject 5: 92                  
-
-Student Information:             
-Name: John Doe              
-Total Marks: 433.00        
-Average Marks: 86.60       
+![image](https://github.com/user-attachments/assets/5575e41f-3ce0-4479-9845-c9c3765438df)
+    
  
 
 ## RESULT
